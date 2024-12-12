@@ -1,0 +1,90 @@
+{
+  "items": [
+    {
+      "url": "/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/api/experts/search",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/experts/{expertId}",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/bookings",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/payments",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/communications",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "dashboard/student/expert-search/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "student",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/student/expert-profile/{expertId}/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "student",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/student/booking-scheduling/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "student",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/student/payment-billing/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "student",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/student/communication/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "student",
+      "access": "private"
+    },
+    {
+      "url": "/(auth)/register/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/(auth)/login/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    }
+  ]
+}
